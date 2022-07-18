@@ -263,20 +263,27 @@ body{
 }
 
 .pink-box{
-  width: 7rem;
-  height: 7rem;
+
+  width: 10rem;
+  height: 10rem;
   border: 8px solid #F7547F;
   position: absolute;
-  bottom: 3rem;
+  bottom: -2rem;
+  left: 35%;
 }
 
 .exp-box{
   position: absolute;
-  bottom: 1.5rem;
+  bottom: 0rem;
   left: 1rem;
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: white;
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #192646;
+  left: 40%;
+
+}
+
+.exp-box-outer-div{
 }
 
 .recent-work-one{
@@ -809,6 +816,22 @@ body{
     width: 80%;
   }
 
+  .pink-box{
+    width: 7rem;
+    height: 7rem;
+    left: 0;
+    bottom: 3rem;
+  }
+  .exp-box{
+    bottom: 1.75rem;
+    left: 1rem;
+    font-size: 1.75rem;
+    color: white;
+    font-weight: 600;
+  }
+  .exp-box-outer-div{
+    display: block;
+  }
 }
 
 @media screen and (max-width: 568px) {
@@ -835,4 +858,5 @@ body{
   .exp-box{
     font-size: 1.25rem;
   }
+
 }
