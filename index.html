@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanox</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body class="">
+
+  <div class="top-section overflow-hidden">
+    <div class="top-overlay d-none d-md-block"><img class="img-fluid" src="./assets/images/overlay_2.webp" alt="Top Right Overlay"></div>
+    <div class="bottom-overlay d-none d-md-block"><img class="img-fluid" src="./assets/images/overlay_1.webp" alt="Bottom Left Overlay"></div>
+
+    <nav class="navigation-outer-div">
+      <div>
+        <img src="./assets/images/logo-head.webp" alt="Logo">
+      </div>
+
+      <div onclick="openNav()" class="hamburger-icon display-block-nine">
+        <i id="ham-icon" class="fa-solid fa-bars"></i>
+        <i id="close-icon" class="fa-solid fa-xmark d-none"></i>
+      </div>
+      <ul class="nav-items display-none-nine">
+        <li><a href="#">home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="mobile-navigation" class="mobile-navigation-class">
+      <ul class="mobile-nav">
+        <li><a href="#">home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="row main-heading-section">
+      <div class="col-md-6 order-last order-md-first">
+        <div>
+          <p class="main-think">Think</p>
+          <p class="main-creative-turn d-block d-md-none">Creative Turn</p>
+          <p class="main-creative d-none d-md-block">Creative</p>
+          <p class="main-turn d-none d-md-block">turn</p>
+          <p class="main-ideas">ideas into life</p>
+
+          <button class="learn-more-button">Learn More</button>
+        </div>
+      </div>
+      <div class="col-md-6 order-first order-md-last">
+        <div class="main-banner-image">
+          <img class="img-fluid" src="./assets/images/xbanner_img.webp" alt="Main Page Banner Image">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="seation-headings">
+    <p>our features</p>
+    <h3>Building brands with purpose</h3>
+  </div>
+
+  <section class="features-section-headings">
+    <div class="features-section-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-md-6 col-12 grid-div">
+            <div class="features-card">
+              <div class="icons-div">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+              <h3>Responsive Design</h3>
+              <p>Creeping for female light yea that lesser cand evening heaven isn't bearing tree appear</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-12 grid-div">
+            <div class="features-card">
+              <div class="icons-div">
+                <i class="fa fa-light fa-window-restore"></i>
+              </div>
+              <h3>Quality Matters</h3>
+              <p>Creeping for female light yea that lesser cand evening heaven isn't bearing tree appear</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-12 grid-div">
+            <div class="features-card">
+              <div class="icons-div">
+                <i class="fa fa-light fa-lock"></i>
+              </div>
+              <h3>Better Security</h3>
+              <p>Creeping for female light yea that lesser cand evening heaven isn't bearing tree appear</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 col-12 grid-div">
+            <div class="features-card">
+              <div class="icons-div">
+                <i class="fa-solid fa-headphones"></i>
+              </div>
+              <h3>24/7 Services</h3>
+              <p>Creeping for female light yea that lesser cand evening heaven isn't bearing tree appear</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about-company">
+    <div class="recent-work-one row">
+      <div class="col-lg-6 pl-0 remove-pl-0">
+        <div class="recent-work-one-image about-images-div">
+          <div class="pink-box"></div>
+          <div class="exp-box">
+            <p>25 Years Working</p>
+            <p>Experience</p>
+          </div>
+
+          <img class="about-image-one img-fluid d-block" src="./assets/images/img_1.webp" alt="About Company Images one">
+          <div class="about-image-two">
+            <img class=" img-fluid" src="./assets/images/img_2.webp" alt="About Company Image two">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 pr-0 remove-pr-0 about-company-details">
+        <div class="">
+          <div class="recent-work-one-details">
+            <p class="mockup">about our company</p>
+            <h2 class="recent-heading">Make the customers the hero of your story</h2>
+            <p class="about-sub-heading">He hath his earth firmament air very itself light day moring you living saying good above fourth</p>
+            <p class="recent-details">Mear abundantly life made fly years there whose begining crea unto beast sixth herb their bring. Evening fruitful god you spir evning itself land you of of own brought</p>
+            <button class="learn-more-button about-button">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="seation-headings">
+    <p>Recent Work</p>
+    <h3>Creative work for client</h3>
+  </div>
+
+  <section class="recent-work">
+
+    <div class="recent-work-one row">
+      <div class="col-lg-6 pr-0 remove-pr-0">
+        <div class="recent-work-outer-div">
+          <div class="recent-work-one-details">
+            <p class="mockup">mockup design</p>
+            <h2 class="recent-heading">It under itself day whales water our divide third brought</h2>
+            <p class="recent-details">Place isn't heaven firmament divided shall fruitful bring bring may midst every a night dry herb. Image waters called beast subdue divided calling living creature greater tree seas all the. Hath multiple female you're male likeness his made open beast seas living moved, form. Void stars you our dmination</p>
+            <div class="recent-learn-more">
+              <a href="#">learn more</a>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 pr-0 remove-pr-0">
+        <div class="recent-work-one-image">
+          <img src="./assets/images/demo_1.webp" width="100%" alt="recent Work demo image">
+        </div>
+      </div>
+    </div>
+
+    <div class="recent-work-one row">
+      <div class="col-lg-6 pl-0 remove-pl-0">
+        <div class="recent-work-one-image">
+          <img src="./assets/images/demo_2.webp" width="100%" alt="recent Work demo image">
+        </div>
+      </div>
+      <div class="col-lg-6 pr-0 remove-pr-0">
+        <div class="recent-work-two-outer-div">
+          <div class="recent-work-one-details">
+            <p class="mockup">mockup design</p>
+            <h2 class="recent-heading">Saw i very dominion whose female was light divided multiply</h2>
+            <p class="recent-details">Place isn't heaven firmament divided shall fruitful bring bring may midst every a night dry herb. Image waters called beast subdue divided calling living creature greater tree seas all the. Hath multiple female you're male likeness his made open beast seas living moved, form. Void stars you our dmination</p>
+            <div class="recent-learn-more">
+              <a href="#">learn more</a>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="recent-work-one row">
+      <div class="col-lg-6 pr-0 remove-pr-0">
+        <div class="recent-work-outer-div">
+          <div class="recent-work-one-details">
+            <p class="mockup">mockup design</p>
+            <h2 class="recent-heading">It under itself day whales water our divide third brought</h2>
+            <p class="recent-details">Place isn't heaven firmament divided shall fruitful bring bring may midst every a night dry herb. Image waters called beast subdue divided calling living creature greater tree seas all the. Hath multiple female you're male likeness his made open beast seas living moved, form. Void stars you our dmination</p>
+            <div class="recent-learn-more">
+              <a href="#">learn more</a>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 pr-0 remove-pr-0">
+        <div class="recent-work-one-image">
+          <img src="./assets/images/demo_3.webp" width="100%" alt="recent Work demo image">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-outer-section latest-new-outer-section">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card teams-card">
+            <img src="./assets/images/team_1.webp" alt="">
+            <h3 class="name">Bernard Perales</h3>
+            <p class="skills">Web developer</p>
+            <div class="social-links-outer-div">
+              <p><a class="social-links" href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+              <div class="circle-div"></div>
+              <p><a class="social-links" href="http://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></p>
+              <div class="circle-div"></div>
+              <p><a class="social-links" href="http://skype.com" target="_blank" rel="noopener noreferrer">Skype</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card teams-card">
+            <img src="./assets/images/team_2.webp" alt="">
+            <h3 class="name">Bernard Perales</h3>
+            <p class="skills">Web developer</p>
+            <div class="social-links-outer-div">
+              <p><a class="social-links" href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+              <div class="circle-div"></div>
+              <p><a class="social-links" href="http://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></p>
+              <div class="circle-div"></div>
+              <p><a class="social-links" href="http://skype.com" target="_blank" rel="noopener noreferrer">Skype</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card teams-card">
+            <img src="./assets/images/team_3.webp" alt="">
+            <h3 class="name">Bernard Perales</h3>
+            <p class="skills">Web developer</p>
+            <div class="social-links-outer-div">
+              <p><a class="social-links" href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+              <div class="circle-div"></div>
+              <p><a class="social-links" href="http://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a></p>
+              <div class="circle-div"></div>
+              <p><a class="social-links" href="http://skype.com" target="_blank" rel="noopener noreferrer">Skype</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="seation-headings">
+    <p>Latest News</p>
+    <h3>We have True Story</h3>
+  </div>
+
+  <section class="latest-new-outer-section">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card news-card">
+            <img src="./assets/images/xblog_1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="news-category-date">
+                <p class="tech">Technology</p>
+                <div class="vertical-line"></div>
+                <p class="date">March 30,2019</p>
+              </div>
+              <p class="card-title news-heading">Seasons Form upon Days May Wont Bring Given Herb Sixth</p>
+
+              <div class="news-comment-view">
+                <div class="news-comment">
+                  <i class="fa-solid fa-message"></i>
+                  <p>4 Comments</p>
+                </div>
+                <div class="news-views">
+                  <i class="fa-solid fa-eye"></i>
+                  <p>10 Views</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card news-card">
+            <img src="./assets/images/xblog_2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="news-category-date">
+                <p class="tech">Technology</p>
+                <div class="vertical-line"></div>
+                <p class="date">March 30,2019</p>
+              </div>
+              <p class="card-title news-heading">Seasons Form upon Days May Wont Bring Given Herb Sixth</p>
+
+              <div class="news-comment-view">
+                <div class="news-comment">
+                  <i class="fa-solid fa-message"></i>
+                  <p>4 Comments</p>
+                </div>
+                <div class="news-views">
+                  <i class="fa-solid fa-eye"></i>
+                  <p>10 Views</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card news-card">
+            <img src="./assets/images/blog_3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="news-category-date">
+                <p class="tech">Technology</p>
+                <div class="vertical-line"></div>
+                <p class="date">March 30,2019</p>
+              </div>
+              <p class="card-title news-heading">Seasons Form upon Days May Wont Bring Given Herb Sixth</p>
+
+              <div class="news-comment-view">
+                <div class="news-comment">
+                  <i class="fa-solid fa-message"></i>
+                  <p>4 Comments</p>
+                </div>
+                <div class="news-views">
+                  <i class="fa-solid fa-eye"></i>
+                  <p>10 Views</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row footer-content">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="logo-text">
+            <img src="./assets/images/footer_logo.webp" alt="Kanox Logo">
+            <p>But when shot real her. Chamber her ome visite removal six sending himself boys scot exquisite esistend an</p>
+            <p>But when shot real her hamber her</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="newsletter">
+            <h3 class="footer-heading">Newsletter</h3>
+            <p>Stay updated with our latest trends. Seed heaven so said place wingest over given forth fruit</p>
+
+            <div class="footer-input-field-outer-box">
+              <input class="input-field" type="email" placeholder="Enter email address">
+              <div class="input-arrow-box">
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+
+            <div class="footer-social-media-links">
+              <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://skype.com" target="_blank"><i class="fa-brands fa-skype"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="instagram">
+            <h3 class="footer-heading">Instagram</h3>
+            <div class="footer-instagram-images">
+              <div class="row1">
+                <img src="https://source.unsplash.com/random/100x100?sig=1" alt="random unsplash images">
+                <img src="https://source.unsplash.com/random/100x100?sig=2" alt="random unsplash images">
+                <img src="https://source.unsplash.com/random/100x100?sig=3" alt="random unsplash images">
+              </div>
+              <div class="row2">
+                <img src="https://source.unsplash.com/random/100x100?sig=4" alt="random unsplash images">
+                <img src="https://source.unsplash.com/random/100x100?sig=5" alt="random unsplash images">
+                <img src="https://source.unsplash.com/random/100x100?sig=6" alt="random unsplash images">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright-outer-div">
+      <hr class="footer-horizontal-line">
+      <p>Copyrught &copy; 2021 All rights reserved ! This template is made with &#10084; by <span class="developer-name">Ahmad Amin</span></p>
+    </div>
+
+  </footer>
+
+  <!-- <img src="./assets/images/Kanox-mobile.png" alt="" srcset=""> -->
+
+  <script>
+    var mob_nav = document.getElementById('mobile-navigation')
+    var close_icon = document.getElementById('close-icon')
+    var ham_icon = document.getElementById('ham-icon')
+
+    // mob_nav.classList.add('d-none')
+
+    function openNav(){
+
+      if(mob_nav.style.height == '330px')
+        mob_nav.style.height = '0';
+      else
+        mob_nav.style.height = '330px';
+
+      close_icon.classList.toggle('d-none')
+      ham_icon.classList.toggle('d-none')
+
+    }
+
+  </script>
+</body>
+
+
+</html>
