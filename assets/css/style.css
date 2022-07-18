@@ -347,9 +347,39 @@ body{
 }
 
 .team-outer-section{
-  background-color: #112E41;
+  background-color: #192646;
   padding: 2rem;
 }
+
+.details-row{
+  padding: 6rem 0;
+}
+
+.details-outer-div{
+  margin-top: 20px;
+}
+
+.details{
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.details-number{
+  font-size: 4rem;
+}
+
+.details-description{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 1.15;
+}
+.first-one{
+  margin-top: 10px;
+}
+
 
 
 .news{
